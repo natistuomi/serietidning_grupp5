@@ -1,0 +1,42 @@
+.container{
+    height: 800px;
+    width: 600px;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-item{
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+.two {
+    grid-row: 1/2;
+    grid-column: 4/6;
+
+}
+.four {
+    grid-row: 2/3;
+    grid-column: 1/5;
+}
+.five {
+    grid-row: 2/3;
+    grid-column: 5/7;
+}
+.six {
+    grid-row: 3/4;
+    grid-column: 1/5;
+}
+
+
+.grid-item:hover{
+    background-color: black;
+}

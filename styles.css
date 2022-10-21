@@ -1,0 +1,39 @@
+.grid-1 {
+    display: grid;
+    grid-gap: 1rem;
+    
+    grid-template-columns: [test-column-1] 1fr [test-column-2] 1fr [test-column-3] 2fr;
+    grid-template-rows: [yikes] 1fr [lol] 4fr;
+
+
+
+}
+    
+.grid-1-item {
+    background-color: red;
+    color: white;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-1-item:hover{
+    background-color: blue;
+}
+
+.test1 {
+
+    grid-column: 1/4;
+}
+.grid-2{
+    display: grid;
+    width: 100%;
+    grid-template-rows: [yikes] 1fr [lol] 4fr;
+    
+ 
+}
+.grid-2-item{
+    border: 2px solid salmon;
+    background-color: aquamarine;
+}
